@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'contact-list',
+    selector: 'app-contact-list',
     template: `
         <div className="container">
             <div className="row">

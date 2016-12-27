@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'contact-details',
+    selector: 'app-contact-details',
     template: `
         <div className="container">
             <div className="row">

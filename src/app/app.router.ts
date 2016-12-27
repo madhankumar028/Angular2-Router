@@ -4,8 +4,8 @@ import { ContactListComponent } from './contact/contact.list.component';
 import { ContactDetailsComponent } from './contact/contact.details.component';
 
 export const routes: Routes = [
-  { path: 'contact-list', component: ContactListComponent },
-  { path: 'contact-details', component: ContactDetailsComponent }
+  { path: 'app-contact-list', component: ContactListComponent },
+  { path: 'app-contact-details', component: ContactDetailsComponent }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
