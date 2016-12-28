@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="jumbotron">
+            <div class="col-sm-12">ContactListComponent</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <ul>
+                <li *ngFor="let contact of contacts">
+                    {{contact.firstName}}
+                    {{contact.lastName}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

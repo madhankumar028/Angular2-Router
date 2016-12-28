@@ -2,15 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-contact-list',
-    template: `
-        <div className="container">
-            <div className="row">
-                <div className="col-sm-8">ContactListComponent</div>
-            </div>
-        </div>
-    `
+    templateUrl: 'app/contact/contact.list.component.html'
 })
 
 export class ContactListComponent {
 
+    contacts = [
+        {firstName: 'John', lastName: 'Doe'},
+        {firstName: 'Anna', lastName: 'Smith'},
+        {firstName: 'Peter', lastName: 'Jones'}
+    ];
 }

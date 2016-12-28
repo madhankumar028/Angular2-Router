@@ -1,8 +1,12 @@
 <h1>
   {{title}}
 </h1>
-<nav>
-  <a [routerLink]="['/app-contact-list']">Contact-List</a>
-  <a [routerLink]="['/app-contact-details']">Contact-Details</a>
+<nav class="navbar navbar-inverse">
+    <ul>
+        <li>
+            <a [routerLink]="['/app-contact-list']">Contact-List</a>
+            <a [routerLink]="['/app-contact-details']">Contact-Details</a>
+        </li>
+    </ul>
 </nav>
 <router-outlet></router-outlet>
