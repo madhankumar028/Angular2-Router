@@ -5,8 +5,8 @@ import { HttpModule } from '@angular/http';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 import { AppComponent } from './app.component';
-import { ContactListComponent } from './contact/contact.list.component';
-import { ContactDetailsComponent } from './contact/contact.details.component';
+import { ContactListComponent } from './contact/contact-list/contact.list.component';
+import { ContactDetailsComponent } from './contact/contact-details/contact.details.component';
 import { routing } from './app.router';
 
 @NgModule({

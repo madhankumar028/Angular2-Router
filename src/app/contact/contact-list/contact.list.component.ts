@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-contact-list',
-    templateUrl: 'app/contact/contact.list.component.html'
+    templateUrl: 'app/contact/contact-list/contact.list.component.html'
 })
 
 export class ContactListComponent {
