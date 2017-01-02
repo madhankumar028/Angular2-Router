@@ -12,9 +12,9 @@ export class ContactListComponent implements OnInit {
     constructor(private http: Http) {}
 
     contacts = [
-        {firstName: 'John', lastName: 'Doe'},
-        {firstName: 'Anna', lastName: 'Smith'},
-        {firstName: 'Peter', lastName: 'Jones'}
+        // {firstName: 'John', lastName: 'Doe'},
+        // {firstName: 'Anna', lastName: 'Smith'},
+        // {firstName: 'Peter', lastName: 'Jones'}
     ];
 
     contact: any;
@@ -23,7 +23,8 @@ export class ContactListComponent implements OnInit {
         this.http.get('http://apitodo.herokuapp.com/api/todos')
             .subscribe(data => {
                 console.log(data);
-                console.log(this.contact = data.json());
+                console.log(this.contact = data.json().todo);
             });
+        this.contacts.push(this.contact);
     }
 }
