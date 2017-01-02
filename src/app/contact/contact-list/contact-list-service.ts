@@ -9,6 +9,6 @@ export class ContactListService {
   baseUrl = 'http://apitodo.herokuapp.com/api/todos';
 
   getContacts() {
-    this.http.get(this.baseUrl);
+    return this.http.get(this.baseUrl);
   }
 }
