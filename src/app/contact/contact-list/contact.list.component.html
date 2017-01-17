@@ -4,11 +4,11 @@
             <div class="col-sm-12">ContactListComponent</div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" *ngIf="contacts">
         <div class="col-sm-6">
           <ul>
-            <li *ngFor="let contact of contact">
-              {{contact.todo}}
+            <li *ngFor="let contact of contacts">
+              {{contact.name}}
             </li>
           </ul>
         </div>

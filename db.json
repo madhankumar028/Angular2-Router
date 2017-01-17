@@ -1,0 +1,6 @@
+{
+  "contacts": [
+    {"id": 1, "name": "The Godfather"},
+    {"id": 2, "name": "Casablanca"}
+  ]
+}
