@@ -6,7 +6,7 @@ export class ContactListService {
 
   constructor(private http: Http) {}
 
-  baseUrl = 'http://localhost:3000/contacts';
+  baseUrl = 'http://localhost:3005/contacts';
 
   getContacts() {
     return this.http.get(this.baseUrl);
