@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { ContactListComponent } from './contact/contact-list/contact.list.component';
 import { ContactDetailsComponent } from './contact/contact-details/contact.details.component';
 import { routing } from './app.router';
+import { PageNotFoundComponent } from './app.pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactListComponent,
-    ContactDetailsComponent
+    ContactDetailsComponent,
+    PageNotFoundComponent
   ],
   imports: [
     AlertModule,
