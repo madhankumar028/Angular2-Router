@@ -4,13 +4,25 @@
             <div class="col-sm-12">ContactListComponent</div>
         </div>
     </div>
+</div>
+<div class="container">
     <div class="row" *ngIf="contacts">
         <div class="col-sm-6">
-          <ul>
-            <li *ngFor="let contact of contacts">
-              {{contact.name}}
-            </li>
-          </ul>
+          <table>
+              <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+              </tr>
+              <tr *ngFor="let contact of contacts">
+                  <td>{{contact.id}}</td>
+                  <td>{{contact.name}}</td>
+              </tr>
+          </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <ngb-pagination [collectionSize]="40"></ngb-pagination>
         </div>
     </div>
 </div>
