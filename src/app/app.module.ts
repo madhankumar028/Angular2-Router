@@ -10,6 +10,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { ContactListComponent } from './contact/contact-list/contact.list.component';
 import { ContactDetailsComponent } from './contact/contact-details/contact.details.component';
+import { LoginComponent } from './login/login.component';
 import { routing } from './app.router';
 import { PageNotFoundComponent } from './app.pagenotfound.component';
 
@@ -18,6 +19,7 @@ import { PageNotFoundComponent } from './app.pagenotfound.component';
     AppComponent,
     ContactListComponent,
     ContactDetailsComponent,
+    LoginComponent,
     PageNotFoundComponent
   ],
   imports: [
